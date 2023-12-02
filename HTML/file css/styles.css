@@ -15,7 +15,10 @@
             color: deeppink;
         
         }
-
+.first-letter{
+    font-weight: bold;
+    font-size: 140%;
+}
 
         a:hover,
     a:focus {
@@ -23,10 +26,29 @@
     }
 
 
-    .first-letter {
+    .pre::first-line {
         font-size: 140%;
         font-weight: bold;
     }
+    ::selection{
+        background-color: brown;
+    }
 
 
+    .yemayhonuu{
+        color: blue;
+        border: 1px solid gray;
+      
+    }
+.no {
+    color: initial;
+    border: inherit;
+}
+.merak {
+    color: brown;
+    
+}
+span {
+    border: 1px solid black;
+}
    
