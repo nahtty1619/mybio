@@ -1,0 +1,16 @@
+
+        img {
+
+            width: 100px;
+            border-radius: 50px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .section {
+            font-weight: bold;
+        }
+     
+        ul li:nth-child(even){
+            color: brown;
+        }
