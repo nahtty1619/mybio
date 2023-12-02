@@ -11,6 +11,22 @@
             font-weight: bold;
         }
      
-        ul li:nth-child(even){
-            color: brown;
+        ul li:nth-child(3n){
+            color: deeppink;
+        
         }
+
+
+        a:hover,
+    a:focus {
+        color: burlywood;
+    }
+
+
+    .first-letter {
+        font-size: 140%;
+        font-weight: bold;
+    }
+
+
+   
