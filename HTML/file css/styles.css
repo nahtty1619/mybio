@@ -2,7 +2,7 @@
         img {
 
             width: 100px;
-            border-radius: 50px;
+            border-radius: 0px;
             float: left;
             margin-right: 10px;
         }
@@ -22,7 +22,7 @@
 
         a:hover,
     a:focus {
-        color: burlywood;
+        color:red;
     }
 
 
@@ -52,3 +52,27 @@ span {
     border: 1px solid black;
 }
    
+
+
+.box { 
+    width: 800px;
+    height: 500px;
+    background: rgb(188,212,57);
+background: linear-gradient(90deg, rgba(188,212,57,1) 19%, rgba(21,151,123,1) 68%);
+    
+}
+p{
+    color: white;
+}
+a{
+    color: rgb(255, 230, 0);
+   
+}
+.images{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50;
+}
