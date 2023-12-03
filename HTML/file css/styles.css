@@ -82,11 +82,9 @@ a{
 
 
 /* table exercise*/
-table{
-           
+table{     
     border-collapse: collapse;
-    
-   
+    margin-top: 50px;
 }
 th {
     background-color: #427fef;
@@ -112,3 +110,11 @@ td{
     box-shadow:10px 10px  lightgray;
     
    }
+   tfoot{
+    text-align: left;
+   }
+   .totalbirr{
+    text-align: center;
+   }
+
+   
