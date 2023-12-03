@@ -59,13 +59,16 @@ span {
     height: 500px;
     background: rgb(188,212,57);
 background: linear-gradient(90deg, rgba(188,212,57,1) 19%, rgba(21,151,123,1) 68%);
+box-shadow: 0 0 30px gray;
     
 }
-p{
+.p{
     color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2) ;
 }
 a{
     color: rgb(255, 230, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
    
 }
 .images{
