@@ -160,3 +160,27 @@ td{
     background-color: red;
    
    }
+/*flexbox*/
+   .continer{
+    border: 2px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    height: 90vh;
+   }
+.flex{
+    flex-basis: 15rem;
+    flex-shrink: 1;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    background-color: gold;
+    
+}
+.box-one {
+    flex-basis: 15rem;
+    flex-shrink:0;
+align-self:center;
+}
