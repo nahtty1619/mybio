@@ -185,3 +185,24 @@ td{
     flex-shrink:0;
 align-self:center;
 }
+
+
+
+.contine{
+    display: flex;
+    flex-direction: row;
+   
+}
+.boxx{
+    background-color: gold;
+    padding: 1rem;
+}
+.boxx:nth-of-type(2){
+    background-color: aqua;
+}
+@media screen and (min-width:600px){
+    .contine{
+        flex-direction: row;
+    }
+    
+}
