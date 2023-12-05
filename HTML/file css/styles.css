@@ -1,4 +1,18 @@
 /*my bio exersises*/
+.back {
+    background: url(../images/OIP\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position-x: center;
+
+   
+
+}
+
+.back{
+    color: white;
+}
 .tweet{
     width: 5rem;
     height: 5rem;
@@ -64,11 +78,14 @@ span {
 
 
 .box { 
-    width: 800px;
-    height: 500px;
+   
     background: rgb(188,212,57);
 background: linear-gradient(90deg, rgba(188,212,57,1) 19%, rgba(21,151,123,1) 68%);
 box-shadow: 0 0 30px gray;
+display: flex;
+align-items: center;
+flex-direction: column;
+
     
 }
 .p{
@@ -78,15 +95,17 @@ box-shadow: 0 0 30px gray;
 a{
     color: rgb(255, 230, 0);
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    
    
 }
 .images{
     width: 400px;
     height: 400px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50;
+    margin: 50px;
+    align-items: center;
+   
+    
+   
 }
 
 
@@ -126,7 +145,7 @@ td{
     overflow: scroll;
     font-size: medium;
     margin: 20px;
-    
+    font-family:Roboto;
    }
    tfoot{
     text-align: left;
@@ -148,6 +167,7 @@ td{
     z-index: 1;
     display: inline-block;
     overflow: scroll;
+   
    }
    .ox::before{
     content:"Hello";
@@ -159,9 +179,10 @@ td{
     width: 100px;
     height: 100px;
     background-color: red;
+    font-display: swap;
    
    }
-/*flexbox*/
+/*flexbox
    .continer{
     border: 2px solid lightgrey;
     display: flex;
@@ -179,10 +200,9 @@ td{
     margin: 1rem;
     background-color: gold;
     
-}
+}*/
 .box-one {
     flex-basis: 15rem;
-    flex-shrink:0;
 align-self:center;
 }
 
@@ -190,7 +210,7 @@ align-self:center;
 
 .contine{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
    
 }
 .boxx{
@@ -200,9 +220,9 @@ align-self:center;
 .boxx:nth-of-type(2){
     background-color: aqua;
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) {
     .contine{
-        flex-direction: row;
+        flex-direction: column;
     }
     
 }
