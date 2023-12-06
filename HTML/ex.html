@@ -11,29 +11,67 @@
 </head>
 
 <body>
-    <form class="form" >
-        
+    <form class="form">
+
         <div class="form-group">
             <label for="date">date</label>
             <input type="date">
         </div>
         <div class="form-group">
-            <label for="name" >name</label>
-            <input type="text"  placeholder="name">
+            <label for="name">name</label>
+            <input type="text" placeholder="name">
         </div>
         <div class="form-group">
             <label for="name">email</label>
-            <input type="email"  placeholder="email">
+            <input type="email" placeholder="email">
         </div>
         <div class="form-group">
             <label for="name">password</label>
-            <input type="password" placeholder="password">
+            <input type="password" maxlength="7" />
         </div>
-       <button class="button" type="register">register</button>
-       <button class="button" type="clear">clear</button>
-       <div>
-       <textarea  cols="30" rows="10"> comment...</textarea>
-    </div>
+        <button class="button" type="register">register</button>
+        <button class="button" type="clear">clear</button>
+        <div>
+            <textarea cols="30" rows="5"> comment...</textarea>
+        </div>
+        <div>
+            <input type="text" list="country">
+            <datalist id="country">
+                <option value="ethiopa"></option>
+                <option value="usa"></option>
+                <option value="england"></option>
+                <option value="asia"></option>
+            </datalist>
+        </div>
+        <div>
+            <select class="select">
+                <optgroup>
+                    <option value=""> courses</option>
+                  
+                    <option value="">front-end courses</option>
+                    <option value="1">html</option>
+                    <option value="2">css</option>
+                    <option value="3">javascript</option>
+              
+                </optgroup>
+                <optgroup>
+                    <option value="">back-end courses</option>
+                    <option value="1">html</option>
+                    <option value="2">css</option>
+                    <option value="3">javascript</option>
+                   
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox"  id="front-end"/>
+            <span<label="label-inline" for="front-end">front-end</span>
+        </div>
+        <div>
+            <input type="checkbox"  id="back-end">
+            <label<label="label-inline" for="back-end">back-end</label>
+        </div>
     </form>
     <table>
 

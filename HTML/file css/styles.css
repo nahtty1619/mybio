@@ -240,7 +240,8 @@ input[type='text'],
 input[type='email'],
 input[type='password'],
 input[type='password'],
-input[type='textarea']{
+input[type='textarea']
+ {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 0.5rem 0.7rem;
@@ -269,4 +270,12 @@ textarea{
     resize: none;
     margin-top: 1rem;
 }
+.select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.5rem;
+}
+
+
 
