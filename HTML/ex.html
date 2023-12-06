@@ -35,12 +35,17 @@
             <textarea cols="30" rows="5"> comment...</textarea>
         </div>
         <div>
-            <input type="text" list="country">
+            <input type="text" list="country" placeholder="country">
+        
             <datalist id="country">
-                <option value="ethiopa"></option>
-                <option value="usa"></option>
-                <option value="england"></option>
-                <option value="asia"></option>
+                <optgroup>
+                    
+                    <option value="ethiopa"></option>
+                    <option value="usa"></option>
+                    <option value="england"></option>
+                    <option value="asia"></option>
+                </optgroup>
+                
             </datalist>
         </div>
         <div>
@@ -64,7 +69,8 @@
             </select>
         </div>
 
-        <div>
+        <div class="center">
+            <p>checkbox</p>
             <input type="checkbox"  id="front-end"/>
             <span<label="label-inline" for="front-end">front-end</span>
         </div>
@@ -72,6 +78,12 @@
             <input type="checkbox"  id="back-end">
             <label<label="label-inline" for="back-end">back-end</label>
         </div>
+       <div>
+        <p>radio buttons</p>
+        <input type="radio" name="memeberships" id="gold">
+       <label<class="label-inline" for="gold">gold</label></div>
+       <div><input type="radio" name="memeberships" id="silver">
+        <label<class="label-inline" for="silver">silver</label></div>
     </form>
     <table>
 
