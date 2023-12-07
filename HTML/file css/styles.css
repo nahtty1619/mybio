@@ -281,9 +281,41 @@ fieldset{
 .space{
     margin: 10px;
 }
-.regi{
+.regi,.example,.challenege{
     color: black;
 }
 
+
 /*exersise challenge*/
+
+.mob {
+         border: 2px solid #ccc;
+    background-color: black;
+   display: flex;
+   flex-direction:row;
+   justify-content: end;
+   align-items: center;
+   margin: 1rem;
+   padding: 10px;
+   gap: 1rem;
+}
+
+
+.boxxx{
+ 
+color: white;
+}
+.mobi {
+         
+    background-color: black;
+   display: flex;
+  justify-content: center;
+   color: white;
+   margin: 1rem;
+   padding: 10px;
+   
+}
+.mobi{
+   gap: 1rem;
+}
 
