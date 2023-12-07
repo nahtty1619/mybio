@@ -206,8 +206,6 @@ td{
 align-self:center;
 }
 
-
-
 .contine{
     display: flex;
     flex-direction: column;
@@ -276,11 +274,16 @@ textarea{
     padding: 0.5rem 0.7rem;
     margin-top: 0.5rem;
 }
-.center{    
-    position: relative;
-    flex-direction:row;
-   align-self: center;
-   
+fieldset{
+    border: 0;
+  
+}
+.space{
+    margin: 10px;
+}
+.regi{
+    color: black;
 }
 
+/*exersise challenge*/
 

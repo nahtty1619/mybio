@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="file css/styles.css" />
+</head>
+
+<body class="allbody">
+    <form class="form" action="">
+
+        <div class="form-group">
+            <label for="date">date</label>
+            <input type="date">
+        </div>
+        <div class="form-group">
+            <label for="name">name</label>
+            <input type="text" placeholder="name">
+        </div>
+        <div class="form-group">
+            <label for="name">email</label>
+            <input type="email" placeholder="email">
+        </div>
+        <div class="form-group">
+            <label for="name">password</label>
+            <input type="password" maxlength="7" />
+            </div>
+        
+
+            <textarea cols="30" rows="5"> comment...</textarea>
+        </div>
+        <div>
+            <input type="text" list="country" placeholder="country">
+
+            <datalist id="country">
+                <optgroup>
+
+                    <option value="ethiopa"></option>
+                    <option value="usa"></option>
+                    <option value="england"></option>
+                    <option value="asia"></option>
+                </optgroup>
+
+            </datalist>
+        </div>
+        <div>
+            <select class="select">
+                <optgroup>
+                    <option value=""> courses</option>
+
+                    <option value="">front-end courses</option>
+                    <option value="1">html</option>
+                    <option value="2">css</option>
+                    <option value="3">javascript</option>
+
+                </optgroup>
+                <optgroup>
+                    <option value="">back-end courses</option>
+                    <option value="1">html</option>
+                    <option value="2">css</option>
+                    <option value="3">javascript</option>
+
+                </optgroup>
+            </select>
+        </div>
+
+        <div class="center">
+            <p>checkbox</p>
+            <input type="checkbox" id="front-end" />
+            <span<label="label-inline" for="front-end">front-end</span>
+        </div>
+        <div>
+            <input type="checkbox" id="back-end">
+            <label<label="label-inline" for="back-end">back-end</label>
+        </div>
+        <div>
+            <p>radio buttons</p>
+            <input type="radio" name="memeberships" id="gold">
+            <label<class="label-inline" for="gold">gold</label>
+        </div>
+        <div><input type="radio" name="memeberships" id="silver">
+            <label<class="label-inline" for="silver">silver</label>
+        </div>
+
+
+
+        <div class="field">
+            <section>
+                <h2>billing address</h2>
+
+                <input class="space" type="text">
+                <input class="space" type="text">
+                <input class="space" type="text">
+
+            </section>
+        </div>
+
+        <section>
+            <h2>payment</h2>
+            <div>
+                <input class="space" type="text">
+                <input class="space" type="text">
+                <input class="space" type="text">
+            </div>
+        </section>
+    </div>
+    <button class="button" type="register">register</button>
+    <button class="button" type="clear">clear</button>
+    <div>
+    </form>
+</body>
+
+</html>
