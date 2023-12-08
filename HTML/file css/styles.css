@@ -34,7 +34,7 @@
             font-weight: bold;
         }
      
-        ul li:nth-child(3n){
+        ul li:nth-child(0n){
             color: deeppink;
         
         }
@@ -391,3 +391,26 @@ color: white;
     
 }
 
+
+
+/*challenge 3*/
+
+.unorder list{
+    color: black;
+}
+.continerr{
+    border: 2px solid black;
+   margin-top: 2rem;
+  font-family: serif;
+ 
+  
+}
+.margin{
+    margin: 2rem;
+}
+.imageforchalleng3{
+    width: 100%;
+}
+.heading{
+    font-family: sans-serif;
+}
