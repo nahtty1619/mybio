@@ -402,15 +402,45 @@ color: white;
     border: 2px solid black;
    margin-top: 2rem;
   font-family: serif;
+  font-size: 62.5%;
  
   
 }
 .margin{
-    margin: 2rem;
+    margin: 1rem;
 }
 .imageforchalleng3{
     width: 100%;
 }
 .heading{
     font-family: sans-serif;
+}
+/*challeneg4*/
+
+.challege4 {
+    margin-top: 2rem;
+    background: url(../images/jeremy.jpg);
+color: white;
+height: 70vh;
+
+}
+.heightt {
+    margin: 3rem;
+    height:70vh;
+  font-size: medium;
+   
+}
+.hubble {
+    margin: 8rem;
+    text-align: center;
+}
+.year{
+    margin-top: 2rem;
+    border: px solid black;
+    background-color: #ccc;
+    text-align: center;
+    margin: 10rem;
+   padding: 5px;
+   color: black;
+   display: inline;
 }
