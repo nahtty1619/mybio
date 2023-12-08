@@ -319,3 +319,75 @@ color: white;
    gap: 1rem;
 }
 
+
+/*challlenge2 */
+
+
+.chall{
+    margin-top: 5rem;
+    display: grid;
+    grid-template: repeat(4, 100px)/ repeat(2, 100px);
+    border: 2px solid #ccc;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+ align-content: center;
+    height: 80vh;
+    row-gap: 1rem;
+    column-gap: 1rem; 
+}
+.chall{
+    background-color: blue;
+    
+}
+
+.image {
+  margin: 1rem;
+ 
+} 
+
+.challl{
+    margin-top: 10rem;
+    display: grid;
+    grid-template: repeat 30fr 70fr/ repeat 30fr 70fr;
+  
+    border: 2px solid #ccc;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+ align-content: center;
+    height: 100vh;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    overflow: scroll;
+   
+}
+.challl{
+    background-color: lightblue;
+    
+}
+
+
+
+
+.challll{
+    margin-top: 5rem;
+    display: grid;
+    grid-template: repeat(4, 100px)/ repeat(2, 100px);
+    border: 2px solid #ccc;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+ align-content: center;
+    height: 80vh;
+    row-gap: 1rem;
+    column-gap: 1rem;
+   
+   
+}
+
+.challll{
+    background-color: rgb(131, 94, 94);
+    
+}
+
