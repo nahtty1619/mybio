@@ -14,20 +14,20 @@
     color: white;
 }
 .tweet{
-    width: 5rem;
-    height: 5rem;
     background-color: gold;
     float: left;
+    height: 5rem;
     margin-right:1rem;
+    width: 5rem;
    overflow: hidden;
 }
 
         img {
 
-            width: 100px;
             border-radius: 0px;
             float: left;
             margin-right: 10px;
+            width: 100px;
         }
 
         .section {
@@ -59,13 +59,13 @@
 
 
     .yemayhonuu{
-        color: blue;
         border: 1px solid gray;
+        color: blue;
       
     }
 .no {
-    color: initial;
     border: inherit;
+    color: initial;
 }
 .merak {
     color: brown;
@@ -80,10 +80,10 @@ span {
 .box { 
    
     background: rgb(188,212,57);
+align-items: center;
 background: linear-gradient(90deg, rgba(188,212,57,1) 19%, rgba(21,151,123,1) 68%);
 box-shadow: 0 0 30px gray;
 display: flex;
-align-items: center;
 flex-direction: column;
 
     
@@ -99,12 +99,12 @@ a{
    
 }
 .images{
-    width: 400px;
-    height: 400px;
-    margin: 50px;
-    align-items: center;
    
     
+    align-items: center;
+    height: 400px;
+    margin: 50px;
+    width: 400px;
    
 }
 
@@ -123,10 +123,10 @@ th {
     background-color: #427fef;
 }
 td{
+    
+    border-color: #c4dcf3;
     border: 0px solid gray;
     padding: 5px;
-    border-color: #c4dcf3;
-    
    
 }
 .odd {
@@ -138,14 +138,14 @@ td{
 }
 
 .shadow {
-    width: 300px;
-    height: 300px;
     background-color: tomato;
     box-shadow:10px 10px  lightgray;
-    overflow: scroll;
-    font-size: medium;
-    margin: 20px;
     font-family:Roboto;
+    font-size: medium;
+    height: 300px;
+    margin: 20px;
+    overflow: scroll;
+    width: 300px;
    }
    tfoot{
     text-align: left;
@@ -156,18 +156,18 @@ td{
 
 
    .ox{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    display: inline-block;
-    margin: 5px;
-    position: relative;
-    left: 19rem;
-    bottom: 4rem;
-    z-index: 1;
-    display: inline-block;
-    overflow: scroll;
    
+    background-color: red;
+    bottom: 4rem;
+    display: inline-block;
+    display: inline-block;
+    height: 100px;
+    left: 19rem;
+    margin: 5px;
+    overflow: scroll;
+    position: relative;
+    width: 100px;
+    z-index: 1;
    }
    .ox::before{
     content:"Hello";
@@ -176,30 +176,30 @@ td{
 
    
    .ox{
-    width: 100px;
-    height: 100px;
+   
     background-color: red;
     font-display: swap;
-   
+    height: 100px;
+    width: 100px;
    }
 /*flexbox
    .continer{
+    align-content: center;
+    align-items: center;
     border: 2px solid lightgrey;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
     height: 90vh;
+    justify-content: space-evenly;
    }
 .flex{
+    
+    background-color: gold;
     flex-basis: 15rem;
     flex-shrink: 1;
-    width: 5rem;
     height: 5rem;
     margin: 1rem;
-    background-color: gold;
-    
+    width: 5rem;
 }*/
 .box-one {
     flex-basis: 15rem;
@@ -251,28 +251,28 @@ input[type="date"]:focus,
 input[type="textarea"]:focus
 {
     border-color: #7db0fb;
-    outline: 0;
     box-shadow: 0 0 0 4px rgb(24,117, 255, 0.25);
+    outline: 0;
 }
 .form-group{
     margin-bottom: 1rem;
 }
 .button{
     background-color: #0d6efd;
-    color: #fff;
-    border: 0;
     border-radius: 5px;
+    border: 0;
+    color: #fff;
     padding: 0.5rem 0.7rem;
 }
 textarea{
-    resize: none;
     margin-top: 1rem;
+    resize: none;
 }
 .select{
-    border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 0.5rem 0.7rem;
+    border: 1px solid #ccc;
     margin-top: 0.5rem;
+    padding: 0.5rem 0.7rem;
 }
 fieldset{
     border: 0;
@@ -291,12 +291,12 @@ fieldset{
 .mob {
          border: 2px solid #ccc;
     background-color: black;
+   align-items: center;
    display: flex;
    flex-direction:row;
-   justify-content: end;
-   align-items: center;
-   padding: 10px;
    gap: 1rem;
+   justify-content: end;
+   padding: 10px;
    
 }
 
@@ -308,10 +308,10 @@ color: white;
 .mobi {
          
     background-color: black;
-   display: flex;
-  justify-content: center;
    color: white;
+   display: flex;
    padding: 10px;
+  justify-content: center;
    
 }
 .mobi{
@@ -323,17 +323,17 @@ color: white;
 
 
 .chall{
-    margin-top: 5rem;
+    align-items: center;
+    border: 2px solid #ccc;
+    column-gap: 1rem; 
     display: grid;
     grid-template: repeat(4, 100px)/ repeat(2, 100px);
-    border: 2px solid #ccc;
+    height: 80vh;
     justify-content: center;
     justify-items: center;
-    align-items: center;
- align-content: center;
-    height: 80vh;
+    margin-top: 5rem;
     row-gap: 1rem;
-    column-gap: 1rem; 
+ align-content: center;
 }
 .chall{
     background-color: blue;
@@ -346,19 +346,19 @@ color: white;
 } 
 
 .challl{
-    margin-top: 10rem;
+  
+    align-items: center;
+    border: 2px solid #ccc;
+    column-gap: 1rem;
     display: grid;
     grid-template: repeat 30fr 70fr/ repeat 30fr 70fr;
-  
-    border: 2px solid #ccc;
+    height: 100vh;
     justify-content: center;
     justify-items: center;
-    align-items: center;
- align-content: center;
-    height: 100vh;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    margin-top: 10rem;
     overflow: scroll;
+    row-gap: 1rem;
+ align-content: center;
    
 }
 .challl{
@@ -370,17 +370,17 @@ color: white;
 
 
 .challll{
-    margin-top: 5rem;
+    align-items: center;
+    border: 2px solid #ccc;
+    column-gap: 1rem;
     display: grid;
     grid-template: repeat(4, 100px)/ repeat(2, 100px);
-    border: 2px solid #ccc;
+    height: 80vh;
     justify-content: center;
     justify-items: center;
-    align-items: center;
- align-content: center;
-    height: 80vh;
+    margin-top: 5rem;
     row-gap: 1rem;
-    column-gap: 1rem;
+ align-content: center;
    
    
 }
@@ -398,11 +398,11 @@ color: white;
     color: black;
 }
 .continerr{
+ 
     border: 2px solid black;
    margin-top: 2rem;
   font-family: serif;
   font-size: 62.5%;
- 
   
 }
 .margin{
@@ -417,15 +417,15 @@ color: white;
 /*challeneg4*/
 
 .challege4 {
-    margin-top: 2rem;
     background: url(../images/jeremy.jpg);
+    margin-top: 2rem;
 color: white;
 height: 70vh;
 
 }
 .heightt {
-    margin: 3rem;
     height:80vh;
+    margin: 3rem;
   font-size: medium;
    
 }
@@ -434,31 +434,31 @@ height: 70vh;
     text-align: center;
 }
 .year{
-    margin-top: 2rem;
-    border: px solid black;
-    background-color: #ccc;
-    text-align: center;
+   
     
-   padding: 5px;
+    background-color: #ccc;
+    border: px solid black;
+    margin-top: 2rem;
+    text-align: center;
    color: black;
    display: inline;
-   
+   padding: 5px;
 }
 /*challenge 5*/
 
 .icons{
-    width: 100%;
-    height: 100vh;
     background: #2a2138;
+    height: 100vh;
     margin-top: 2rem;
+    width: 100%;
    color: white;
   
 
 }  
 .dash{
-  text-align: start;
     margin: 1rem;
     padding: 1rem;
+  text-align: start;
 }
 .dash:hover{
     color: #ccc;
@@ -466,24 +466,24 @@ height: 70vh;
     
 /*challenge 6*/
 .sign{
+    
     background: #f5f5f5;
+    height: 80vh;
+    margin-top: 2rem;
     text-align: center;
     width: 100%;
-    height: 80vh;
-   
-   
 }
 .sign{
-    padding:10rem;
-    text-align: center;
+    padding-top: 10rem;
+    padding-right:1rem;
+    
    
 }
 
 
  .input:focus{
     border-color: #ced4da;
-    text-align: center;
-    
+   
  }
  .input{
     border-radius: 13px;
@@ -494,9 +494,36 @@ height: 70vh;
  
  .signin {
     background-color: #0d6efd;
-    color: #fff;
-    border: 0;
     border-radius: 13px;
+    border: 0;
+    color: #fff;
     padding: 0.5rem 0.7rem;
     width: 12rem;
+}
+
+/*challenege 7*/
+
+
+
+
+.transform1{
+    align-items: start;
+    background-color: gold;
+    border: #c4dcf3;
+    height: 80vh;
+    
+    width: 100%;
+text-align: justify;
+text-indent: 3rem;
+
+}
+.transform1{
+    margin-top: 10rem;
+}
+
+.transform1:hover{
+    transform-origin: 0 50%;
+    transform:perspective(200px) rotate(45deg);
+background-color: lightblue;
+transition: transform 0.5s linear 1s;
 }
